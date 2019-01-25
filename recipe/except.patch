@@ -91,7 +91,7 @@ index a6c832ebb..b506d7054 100644
      virtual void
 -    search() 
 -      throw(no_moves_error) = 0;
-+    search();
++    search() = 0;
  
      /// @brief The solution recorder instance.
      const solution_recorder&
